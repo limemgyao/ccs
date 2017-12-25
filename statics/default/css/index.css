@@ -1,0 +1,73 @@
+.infobox{
+	padding-top: 40px;
+}
+.infobox>span{
+	display: inline-block;
+	color: white;
+	background: rgb(167,133,90);
+	padding-left:5px;
+	padding-right:10px;
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	letter-spacing: 3px;
+}
+.infobox>p{
+	color: rgb(100,100,100);
+	font-size: 18px;
+	line-height: 36px;
+	padding-top: 30px;
+}
+.showbox{
+	padding-top: 50px;
+}
+.showbox>span{
+	display: inline-block;
+	width: 33%;
+}
+.showbox>span>img{
+	width: 100%;
+}
+.superbox{
+	padding-top: 40px;
+}
+.superbox>span{
+	display: inline-block;
+	color: white;
+	background: rgb(167,133,90);
+	padding-left:5px;
+	padding-right:10px;
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	letter-spacing: 3px;
+}
+.superbox>p{
+	margin: 0 auto;
+	text-align: center;
+}
+.super_title{
+	padding-top: 40px;
+	font-size: 22px; 
+	line-height: 40px;
+	width: 500px;
+	color: rgb(167,133,90);
+}
+.super_content{
+	padding-top: 20px;
+	font-size: 18px;
+	line-height: 34px;
+	width: 800px;
+	color: rgb(50,50,50);
+}
+.phonebox{
+	padding: 60px 0px; 
+}
+.phonebox>span{
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+.phonebox>span>img{
+	width: 100%;
+}

@@ -1,0 +1,57 @@
+{template "header.html"}
+<!-- page start -->
+
+
+
+
+            <link rel="stylesheet" href="{HOME_THEME_PATH}css/news.css">
+            <script type="text/javascript">
+                var bannerSwiper;
+                function page_onload(){
+                    //banner swiper init
+                    bannerSwiper = new Swiper('.banner_box', {
+                        autoplay: 4000,//可选选项，自动滑动
+                        loop: true
+                    })
+                    //strategy swiper init
+                   
+                }
+            </script>
+
+            <div class="banner_box">
+                <div class="swiper-wrapper">
+                {list action=module catid=29 num=5}
+                    <div class="swiper-slide">
+                        <a href="{$t.link}"><img src="{dr_get_file($t.thumb)}" alt="{$t.title}" style="width:100%;"/></a>
+                    </div>
+                {/list}
+                </div>
+            </div>
+            <div class='content_box'>
+                <span class='news_title'><b class='point'>·</b>商城新闻</span>
+                <div class='news_content'>
+
+                {list action=module catid=32 num=30}
+                    <div class='news_list'>
+                        <div class='news_li_img'>
+                            <img src="{dr_get_file($t.thumb)}"/>
+                        </div>
+                        <div class='news_li_title'>
+                            <a href="{$t.url}">{$t.title}</a>
+                        </div>
+                        <div class='news_li_content'>
+                            {$t.description}
+                        </div>
+                        <div class='news_li_info'>
+                            <span>{$t.keywords}</span>
+                            <p>阅读：{$t.readnum}</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                {/list}
+                </div>
+            </div>
+
+
+<!-- page end -->
+{template "footer.html"}

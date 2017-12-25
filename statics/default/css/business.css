@@ -1,0 +1,68 @@
+.business_title{
+	margin-top: 40px;
+	display: inline-block;
+	color: white;
+	background: rgb(167,133,90);
+	padding-left:5px;
+	padding-right:10px;
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	letter-spacing: 3px;
+}
+.business_content{
+	padding-top: 10px;
+}
+.business_response>span{
+	display: block;
+	font-weight: bold;
+	color: rgb(50,50,50);
+	font-size: 18px; 
+	letter-spacing: 2px;
+	padding-top: 20px;
+}
+.business_response>p{
+	display: block;
+	color: rgb(100,100,100);
+	font-size: 18px; 
+	letter-spacing: 2px;
+	padding-top: 10px;
+	line-height: 26px;
+}
+.business_rule>p{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	float: left;
+}
+.business_rule>p>a{
+	display: block;
+	line-height: 30px;
+	padding-left: 40px;
+	color: rgb(100,100,100);
+	width: 92%;
+}
+.rhomb{
+	display: block;
+	background: rgb(167,133,90);
+	width: 16px;
+	height: 16px;
+	margin-left: 12px;
+	margin-top: 10px;
+	float: left;
+}
+.business_qrcode{
+	display: block;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width: 100%;
+}
+.business_qrcode>span{
+	display: block;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.business_qrcode>span>img{
+	width: 100%;
+}
